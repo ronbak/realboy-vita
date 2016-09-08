@@ -29,7 +29,7 @@ getch()
 	tcgetattr(STDIN_FILENO, &oldt); // store old settings
 	newt = oldt; // copy old settings to new settings
 	newt.c_lflag &= ~(ICANON | ECHO); // make one change to old settings in new settings
-	tcsetattr(STDIN_FILENO, TCSANOW, &newt); // apply the new settings immediatly
+	tcsetattr(STDIN_FILENO, TCSANOW, &newt); // apply the new settings immediately
 	ch = getchar(); // standard getchar call
 	tcsetattr(STDIN_FILENO, TCSANOW, &oldt); // reapply the old settings
 
