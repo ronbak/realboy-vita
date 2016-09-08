@@ -88,7 +88,7 @@ RealBoy automatically detects the features supported by the executing ROM; it se
 
 Color Game Boy Support
 -------
-RealBoy fully supports emulating the Color Game Boy console. ROMS that do not explicitly support CGB mode can nontheless execute in this mode; the Color Game Boy is backwards-compatible with Game Boy ROMS. However, if you force CGB mode on a ROM that does not explicitly support it, you must supply the Game Boy Color boot ROM. ROMS supporting the Game Boy Color mode will work normally without the Game Boy Color boot ROM.
+RealBoy fully supports emulating the Color Game Boy console. ROMS that do not explicitly support CGB mode can nonetheless execute in this mode; the Color Game Boy is backwards-compatible with Game Boy ROMS. However, if you force CGB mode on a ROM that does not explicitly support it, you must supply the Game Boy Color boot ROM. ROMS supporting the Game Boy Color mode will work normally without the Game Boy Color boot ROM.
 
 
 Super Game Boy Support
