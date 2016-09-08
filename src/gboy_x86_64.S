@@ -920,7 +920,7 @@ op_ld_imm_reg:
 	notq %rcx # invert
 	andq %rcx, %rbx # mask in byte/word
 	orq %rbx, (%rdi) # copy new register
-	movq 6(%rdx), %rcx # get instruction lenght
+	movq 6(%rdx), %rcx # get instruction length
 	andq $0xff, %rcx # mask in byte
 	movq $regs_sets, %rdi # register set
 	addq %rcx, PC(%rdi) # set PC
